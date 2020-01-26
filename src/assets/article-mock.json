@@ -1,0 +1,45 @@
+[
+    {
+        "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--iHuWSp5---/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/302439/26242d08-e738-4741-bde5-2ec03569764c.jpg",
+        "authorName": "Mangesh",
+        "articleTitle":"Easy Introduction to JavaScript Generators",
+        "articlePost":"26 Jan",
+        "technologyTitle" : [
+            {
+                "title" : "javascript"
+            },
+            {
+                "title" : "css"
+            }
+        ]
+},
+{
+    "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--QgNbrRVL--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG",
+    "authorName": "Nachiket",
+    "articleTitle":"        5 React Projects You Need In Your Portfolio    ",
+    "articlePost":"26 Jan",
+    "technologyTitle" : [
+        {
+            "title" : "javascript"
+        },
+        {
+            "title" : "html"
+        },
+        {
+            "title" : "react"
+        }
+    ]
+},
+{
+    "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--iHuWSp5---/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/302439/26242d08-e738-4741-bde5-2ec03569764c.jpg",
+    "authorName": "Parimal",
+    "articleTitle":"        How to Make Programming a Daily Habit    ",
+    "articlePost":"26 Jan",
+    "technologyTitle" : [
+        {
+            "title" : "angular"
+        }
+    ]
+}
+
+]

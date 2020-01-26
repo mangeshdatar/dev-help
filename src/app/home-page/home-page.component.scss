@@ -1,0 +1,29 @@
+
+.search-bar-container{
+    background: #fdf7f3;
+    height: 36px;
+
+}
+.input-container{
+    width: 57%;
+    max-height: 24px;
+    top: -10px;
+    margin-left: 20px;
+}
+
+@media (max-width: 428px) {
+    .search-bar-container{
+        height: 50px;
+    }
+    .input-container{
+        max-height: 40px;
+    }
+}
+
+.dev-logo-container{
+    display: inline-block;
+    .dev-logo{
+        width: 25px;
+        margin-bottom: 8px;
+    }
+}

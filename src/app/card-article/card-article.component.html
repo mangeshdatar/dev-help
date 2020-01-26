@@ -1,0 +1,28 @@
+<div *ngIf="status">
+<div class="article-container" *ngFor="let article of articleData">
+    <div class="author-pic">
+        <img src="{{article.authorPic}}"
+            alt="">
+    </div>
+    <div>
+        <div class="article-title">
+            <h4 style="font-size: 15px;">{{article.articleTitle}}
+            </h4>
+        </div>
+        <div class="author-detail-container">
+            <h6>
+                <span class="author-details">{{article.authorName}}</span>
+                <span class="author-details">{{article.articlePost}}</span>
+                <span class="article-post">(7 Hours ago..)</span>
+            </h6>
+        </div>
+        <div class="article-technology-container">
+            <span class="technology-title" *ngFor="let technology of article.technologyTitle"># {{technology.title}}</span>
+
+        </div>
+    </div>
+</div>
+</div>
+<div *ngIf="!status" class="ui active centered inline loader"></div>
+
+      
