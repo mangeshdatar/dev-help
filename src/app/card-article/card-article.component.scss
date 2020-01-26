@@ -1,0 +1,38 @@
+.article-container{
+    display: flex;
+    max-height: 88px;
+    margin: 4px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #c2c2c2;
+    border: .5px solid #c2c2c2;
+}
+.author-pic{
+    padding: 10px;
+    img{
+        height: 20px;
+    width: 20px;
+    border-radius: 50px;
+}
+}
+.article-title{
+    padding: 10px 10px 0 0;
+    max-height: 25px;
+    text-overflow: ellipsis;
+}
+.author-detail-container{
+    max-height: 20px;
+    .author-details{
+        color: #666;
+        font-size: 7px;
+        padding-right: 5px;
+    }
+    .article-post{
+        color: #666;
+        font-size: 5px;
+    }
+}
+
+.technology-title{
+    font-size: 7px;
+    padding-right: 5px;
+}
