@@ -1,4 +1,5 @@
-<div *ngIf="status">
+<div *ngIf="loader" class="ui active centered inline loader"></div>
+
 <div class="article-container" *ngFor="let article of articleData">
     <div class="author-pic">
         <img src="{{article.authorPic}}"
@@ -22,7 +23,6 @@
         </div>
     </div>
 </div>
-</div>
-<div *ngIf="!status" class="ui active centered inline loader"></div>
+
 
       

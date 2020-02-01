@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ArticleService } from '../service/article.service';
 
 @Component({
   selector: 'app-home-page',
@@ -6,16 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent implements OnInit {
-  content;
-  show = false;
-  constructor() { }
+  content : HTMLElement;
+  constructor(private policyService :ArticleService) { }
 
   ngOnInit() {
     this.content = document.getElementById('content');
-    console.log(this.content);
-    this.content.addEventListener('wheel', this.called);
+    this.content.addEventListener('wheel', this.hideHeader);
+   
   }
-  called(event) {
+  hideHeader(event) {
     var delta;
         	if (event.wheelDelta){
             	delta = event.wheelDelta;
@@ -24,20 +24,11 @@ export class HomePageComponent implements OnInit {
           }
     setTimeout(() => {
       const header: any = document.getElementsByClassName('search-bar-container');
-
       if (delta < 0){
-        console.log("DOWN");
-        this.show = false;
         header[0].style.display = "none";
-
         return
         }else if (delta > 0){
-        console.log("UP");
         header[0].style.display = "block";
-
-        console.log(header[0]);
-        this.show = true
-
         }
     },500)
        
