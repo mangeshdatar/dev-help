@@ -40,6 +40,56 @@
             "title" : "angular"
         }
     ]
+},{
+    "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--QgNbrRVL--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG",
+    "authorName": "Nachiket",
+    "articleTitle":"        5 React Projects You Need In Your Portfolio    ",
+    "articlePost":"26 Jan",
+    "technologyTitle" : [
+        {
+            "title" : "javascript"
+        },
+        {
+            "title" : "html"
+        },
+        {
+            "title" : "react"
+        }
+    ]
+},
+{
+    "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--QgNbrRVL--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG",
+    "authorName": "Nachiket",
+    "articleTitle":"        5 React Projects You Need In Your Portfolio    ",
+    "articlePost":"26 Jan",
+    "technologyTitle" : [
+        {
+            "title" : "javascript"
+        },
+        {
+            "title" : "html"
+        },
+        {
+            "title" : "react"
+        }
+    ]
+},
+{
+    "authorPic": "https://res.cloudinary.com/practicaldev/image/fetch/s--QgNbrRVL--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG",
+    "authorName": "Nachiket",
+    "articleTitle":"        5 React Projects You Need In Your Portfolio    ",
+    "articlePost":"26 Jan",
+    "technologyTitle" : [
+        {
+            "title" : "javascript"
+        },
+        {
+            "title" : "html"
+        },
+        {
+            "title" : "react"
+        }
+    ]
 }
 
 ]

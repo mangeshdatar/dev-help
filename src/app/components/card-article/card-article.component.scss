@@ -14,10 +14,16 @@
     border-radius: 50px;
 }
 }
-.article-title{
+.article-title-container{
     padding: 10px 10px 0 0;
     max-height: 25px;
-    text-overflow: ellipsis;
+    .article-title{
+        font-size: 15px;
+        white-space: nowrap;
+        max-width: 98%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 .author-detail-container{
     max-height: 20px;
